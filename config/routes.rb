@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-   get '/hello_world' => 'hello_worlds#hello_world'
+   root :to => "hw#hello_world"
 end
